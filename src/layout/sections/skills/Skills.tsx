@@ -3,17 +3,23 @@ import styled from 'styled-components';
 import { FlexWrapper } from '../../../components/FlexWrapper';
 import { SectionTitle } from '../../../components/SectionTitle';
 import { Skill } from './skill/Skill';
+import skillsimg from '../../../assets/images/Group 36.png';
 
 export const Skills = () => {
     return (
         <StyledSkills>
-            <SectionTitle>#skills</SectionTitle>
-            <FlexWrapper>
-                <Skill title='languages'  />
-                <Skill title='Databases'/>
-                <Skill title='Tools' />
-                <Skill title='Other' />
-                <Skill title='Frameworks' />
+            <SectionTitle><span>#</span>skills</SectionTitle>
+            <FlexWrapper gap='60px' justify='space-between'>
+                <ImgWrapper>
+                    <img src={skillsimg} alt="" />
+                </ImgWrapper>
+                <SkillsWrapper>
+                    <Skill title='Languages' desc='TypeScript JavaScript' />
+                    <Skill title='Databases' desc='PostgreSQL' />
+                    <Skill title='Tools' desc='VSCode Neovim Linux Figma Git Font Awesome' />
+                    <Skill title='Other' desc='HTML CSS EJS SCSS' />
+                    <Skill title='Frameworks' desc='React' />
+                </SkillsWrapper>
             </FlexWrapper>
         </StyledSkills>
     );
@@ -21,6 +27,20 @@ export const Skills = () => {
 
 
 const StyledSkills = styled.section`
-    background-color: #b648e5;
+    background-color: #4a484b;
     min-height:100vh;
+
+    flex-wrap:wrap;
+    
 `
+const SkillsWrapper = styled.div`
+display:flex;
+flex-wrap:wrap;
+justify-content:flex-end;
+`
+
+const ImgWrapper = styled.div`
+    width: 349px;
+    height: 282px;
+`
+
