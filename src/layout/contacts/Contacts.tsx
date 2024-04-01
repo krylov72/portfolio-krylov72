@@ -29,6 +29,7 @@ export const Contacts = () => {
 const StyledContacts = styled.section`
     padding-top:110px;
     background-color: #282C33;
+    padding-bottom:145px;
 `
 
 const ContactsText = styled.p`

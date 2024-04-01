@@ -25,9 +25,9 @@ export const Main = () => {
 };
 
 const StyledMain = styled.div`
-    min-height:100vh;
     background-color: rgb(40, 44, 51);
     padding-top:62px;
+    padding-bottom:137px;
 `
 
 const TextBlock = styled.div`

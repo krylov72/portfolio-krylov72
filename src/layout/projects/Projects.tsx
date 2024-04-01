@@ -80,7 +80,7 @@ export const Projects = () => {
 
 
 const StyledProjects = styled.section`
-    min-height:auto;
+    padding-bottom:113px;
     background-color:#282C33;
     
 
