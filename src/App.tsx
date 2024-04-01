@@ -3,6 +3,9 @@ import styled from 'styled-components';
 import { Header } from './layout/header/Header';
 import { Main } from './layout/sections/main/Main';
 import { Skills } from './layout/sections/skills/Skills';
+import { Projects } from './layout/projects/Projects';
+import { AboutMe } from './layout/about me/AboutMe';
+import { Contacts } from './layout/contacts/Contacts';
 
 
 function App() {
@@ -10,7 +13,10 @@ function App() {
         <div className='App'>
             <Header />
             <Main />
-            <Skills/>
+            <Projects />
+            <Skills />
+            <AboutMe />
+            <Contacts />
         </div>
     );
 }

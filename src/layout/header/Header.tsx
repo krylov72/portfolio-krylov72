@@ -2,13 +2,17 @@ import React from 'react';
 import styled from 'styled-components';
 import { Logo } from '../../components/logo/Logo';
 import { Menu } from '../../components/menu/Menu';
+import { Container } from '../../components/Container';
 
 export const Header = () => {
     return (
         <StyledHeader>
-            <Logo />
-            <Menu />
-            <LangSlider href="">EN</LangSlider>
+            <Container justify='space-between' display='flex' >
+                <Logo />
+                <Menu />
+                <LangSlider href="">EN</LangSlider>
+            </Container>
+
         </StyledHeader>
 
     );
@@ -21,6 +25,10 @@ justify-content:space-between;
 align-items:center;
 
 
+
 `
 export const LangSlider = styled.a`
+
 `
+
+

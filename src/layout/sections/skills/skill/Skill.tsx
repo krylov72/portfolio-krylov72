@@ -18,17 +18,22 @@ export const Skill = (props: SkillPropsType) => {
 
 const StyledSkill = styled.div`
 text-align:left;
+display:flex;
+flex-direction:column;
 box-sizing: border-box;
 border: 1px solid rgb(171, 178, 191);
-max-width:196px;
+max-width:178px;
 width:100%;
-height: 132px;
 `
 const SkillTitle = styled.h3`
-
+margin:0px;
 border-bottom: 1px solid rgb(171, 178, 191);
 `
 
 const DescriptionName = styled.span`
-    
+    color: rgb(171, 178, 191);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
 `
