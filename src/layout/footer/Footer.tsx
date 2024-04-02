@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Container } from '../Container';
-import { FlexWrapper } from '../FlexWrapper';
-import { Logo } from '../logo/Logo';
-import { Icon } from '../icon/Icon';
+import { Container } from '../../components/Container';
+import { FlexWrapper } from '../../components/FlexWrapper';
+import { Logo } from '../../components/logo/Logo';
+import { Icon } from '../../components/icon/Icon';
 
 export const Footer = () => {
     return (
@@ -26,7 +26,7 @@ export const Footer = () => {
                         </MediaWrapper>
                     </MediaBox>
                 </FlexWrapper>
-                <small>© Copyright 2022. Made by Elias</small>
+                <Privacy>© Copyright 2022. Made by Elias</Privacy>
             </Container>
         </StyledFooter>
     );
@@ -79,4 +79,15 @@ const ContentText = styled.p`
     const MediaWrapper = styled.div`
         display:flex;
         gap:8px;
+    `
+
+    const Privacy = styled.small`
+        display:flex;
+        justify-content:center;
+        color: rgb(171, 178, 191);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
     `

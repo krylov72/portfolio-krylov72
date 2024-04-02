@@ -16,9 +16,9 @@ export const Skills = () => {
                         <img src={skillsimg} alt="" />
                     </ImgWrapper>
                     <SkillsWrapper>
-                        <Skill title='Languages' desc='TypeScript  JavaScript' />
-                        <Skill title='Databases' desc='PostgreSQL' />
                         <Skill title='Tools' desc='VSCode  Neovim  Linux  Figma  Git  Font Awesome' />
+                        <Skill  title='Languages' desc='TypeScript  JavaScript ' />
+                        <Skill title='Databases' desc='PostgreSQL' />
                         <Skill title='Other' desc='HTML  CSS  EJS  SCSS' />
                         <Skill title='Frameworks' desc='React' />
                     </SkillsWrapper>
@@ -39,10 +39,13 @@ const StyledSkills = styled.section`
 `
 const SkillsWrapper = styled.div`
 display:flex;
-flex-wrap:wrap;
-justify-content:flex-end;
-align-items:flex-start;
-gap:12px;
+height: 148px;
+flex-wrap:wrap-reverse;
+flex-direction: column;
+justify-content:flex-start;
+align-content: end;
+width: 100%;
+gap:16px;
 
 
 `

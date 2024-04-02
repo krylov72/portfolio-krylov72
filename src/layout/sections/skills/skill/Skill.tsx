@@ -18,7 +18,6 @@ export const Skill = (props: SkillPropsType) => {
 
 const StyledSkill = styled.div`
 text-align:left;
-display:flex;
 flex-direction:column;
 box-sizing: border-box;
 border: 1px solid rgb(171, 178, 191);
