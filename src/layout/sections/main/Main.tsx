@@ -7,7 +7,7 @@ export const Main = () => {
     return (
         <StyledMain>
             <Container>
-                <FlexWrapper direction='row' align='center' justify='space-around' wrap='wrap'>
+                <FlexWrapper direction='row' align='center' justify='space-between' wrap='wrap'>
                     <TextBlock>
                         <MainText>Elias is a web designer and front-end developer</MainText>
                         <MainDescription>He crafts responsive websites where technologies meet creativity</MainDescription>
@@ -19,6 +19,8 @@ export const Main = () => {
                         <Name>- Dr. Who</Name>
                     </CommentWrapper>
                 </FlexWrapper>
+
+
             </Container>
         </StyledMain>
     );
@@ -52,6 +54,7 @@ const Photo = styled.img`
 
 const CommentWrapper = styled.div`
     max-width:712px;
+    margin: 0 auto;
     height: 95px;
     width:100%;
     display:flex;
@@ -60,9 +63,9 @@ const CommentWrapper = styled.div`
     align-items:center;
     position:relative;
     box-sizing: border-box;
-border: 1px solid rgb(171, 178, 191);
-background: rgb(40, 44, 51);
-margin-top:207px;
+    border: 1px solid rgb(171, 178, 191);
+    background: rgb(40, 44, 51);
+    margin-top:207px;
 
 
 `
@@ -76,7 +79,7 @@ const Name = styled.p`
 position:absolute;
 display:inline-block;
 right:0;
-bottom:-87px;
+bottom:-63px;
 width: 162px;
 height: 63px;
 padding: 16px;

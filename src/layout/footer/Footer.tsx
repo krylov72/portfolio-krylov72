@@ -35,11 +35,10 @@ export const Footer = () => {
 const StyledFooter = styled.footer`
     background-color: #282C33;
     border-top: 1px solid rgb(171, 178, 191);
-    min-height:80vh;
+    padding:32px 0;
 `
 
 const ContentBox = styled.div`
-    
 `
 const Email = styled.span`
     color: rgb(171, 178, 191);

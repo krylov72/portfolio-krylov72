@@ -1,12 +1,11 @@
-import './App.css';
 import styled from 'styled-components';
 import { Header } from './layout/header/Header';
 import { Main } from './layout/sections/main/Main';
 import { Skills } from './layout/sections/skills/Skills';
 import { Projects } from './layout/projects/Projects';
-import { AboutMe } from './layout/about me/AboutMe';
-import { Contacts } from './layout/contacts/Contacts';
 import { Footer } from './layout/footer/Footer';
+import { AboutMe } from './layout/sections/about me/AboutMe';
+import { Contacts } from './layout/sections/contacts/Contacts';
 
 
 function App() {

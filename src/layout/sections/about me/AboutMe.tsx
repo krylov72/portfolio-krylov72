@@ -1,9 +1,9 @@
 import React from 'react';
-import { Container } from '../../components/Container';
 import styled from 'styled-components';
-import { FlexWrapper } from '../../components/FlexWrapper';
-import aboutMe from '../../assets/images/about me.webp';
-import { SectionTitle } from '../../components/SectionTitle';
+import aboutMe from '../../../assets/images/about me.webp';
+import { Container } from '../../../components/Container';
+import { SectionTitle } from '../../../components/SectionTitle';
+import { FlexWrapper } from '../../../components/FlexWrapper';
 
 export const AboutMe = () => {
     return (

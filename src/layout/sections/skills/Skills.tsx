@@ -11,13 +11,13 @@ export const Skills = () => {
         <StyledSkills>
             <Container>
                 <SectionTitle title='skills' firstSymbol='#' />
-                <FlexWrapper gap='60px' align='center'>
+                <FlexWrapper gap='60px' align='flex-start' justify='space-between'>
                     <ImgWrapper>
                         <img src={skillsimg} alt="" />
                     </ImgWrapper>
                     <SkillsWrapper>
                         <Skill title='Tools' desc='VSCode  Neovim  Linux  Figma  Git  Font Awesome' />
-                        <Skill  title='Languages' desc='TypeScript  JavaScript ' />
+                        <Skill title='Languages' desc='TypeScript  JavaScript ' />
                         <Skill title='Databases' desc='PostgreSQL' />
                         <Skill title='Other' desc='HTML  CSS  EJS  SCSS' />
                         <Skill title='Frameworks' desc='React' />
@@ -38,14 +38,15 @@ const StyledSkills = styled.section`
     
 `
 const SkillsWrapper = styled.div`
-display:flex;
-height: 148px;
-flex-wrap:wrap-reverse;
-flex-direction: column;
-justify-content:flex-start;
-align-content: end;
-width: 100%;
-gap:16px;
+    display:flex;
+    max-width:584px;
+    width:100%;
+    max-height:170px;
+    flex-wrap:wrap-reverse;
+    flex-direction: column;
+    align-content:end;
+    vertical-align:top;
+    gap:16px;
 
 
 `
