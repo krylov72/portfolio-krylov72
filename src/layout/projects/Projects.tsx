@@ -7,6 +7,7 @@ import { Project } from './project/Project';
 import nodesImg from '../../assets/images/project1.webp';
 import protectImg from '../../assets/images/project2.webp';
 import kahootImg from '../../assets/images/project3.webp';
+import rectangle from '../../assets/images/Rectangle 25.webp';
 
 const projects = [
     {
@@ -57,6 +58,7 @@ export const Projects = () => {
     return (
         <StyledProjects>
             <Container  justify='space-between'>
+
                 <WrapTitle>
                 <SectionTitle title='projects' firstSymbol='#' />
                 <a href="">View all ~~</a>
@@ -90,8 +92,11 @@ const StyledProjects = styled.section`
 
     & > ${Container} {
       border:1px dashed rgb(171, 178, 191);
+      position:relative;
     }
 `
+
+
 
 const WrapTitle = styled.div`
     display:flex;

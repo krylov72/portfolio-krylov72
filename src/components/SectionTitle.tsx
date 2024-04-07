@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { MyTheme } from '../theme/Theme';
 
 type SectionTitlePropsType = {
     firstSymbol: string
@@ -16,5 +17,6 @@ const Title = styled.h2`
 
 `
 const Symbol = styled.span`
+color:${MyTheme.colors.dash};
 
 `

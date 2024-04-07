@@ -41,6 +41,10 @@ const StyledFooter = styled.footer`
 const ContentBox = styled.div`
 `
 const Email = styled.span`
+color: rgb(171, 178, 191);
+font-size: 16px;
+font-weight: 400;
+line-height: 21px;
 `
 
 const LogoWrapper = styled.div`
@@ -57,13 +61,23 @@ const ContentText = styled.p`
     `
     const MediaText = styled.p`
     text-align: center;
+    color: rgb(255, 255, 255);
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 31px;
     `
     const MediaWrapper = styled.div`
         display:flex;
         gap:8px;
+        margin-top:18px;
     `
 
     const Privacy = styled.small`
         display:flex;
         justify-content:center;
+        color: rgb(171, 178, 191);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top:50px;
     `

@@ -4,10 +4,12 @@ import { Logo } from '../../components/logo/Logo';
 import { Menu } from '../../components/menu/Menu';
 import { Container } from '../../components/Container';
 import { MyTheme } from '../../theme/Theme';
+import { SideBar } from '../../components/SideBar';
 
 export const Header = () => {
     return (
         <StyledHeader>
+            <SideBar></SideBar>
             <Container justify='space-between' display='flex' >
                 <Logo />
                 <MenuWrapper>
@@ -16,7 +18,6 @@ export const Header = () => {
                 </MenuWrapper>
 
             </Container>
-
         </StyledHeader>
 
     );
@@ -28,7 +29,7 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding-top:32px;
-
+position:relative;
 
 
 `

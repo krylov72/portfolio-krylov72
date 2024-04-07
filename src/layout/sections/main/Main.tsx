@@ -27,7 +27,12 @@ export const Main = () => {
                     </PhotoWrapper>
                     </FlexWrapper>
                     <CommentWrapper>
-                        <QuoteSvg src={quote}/>
+                        <FirstIconWrapper>
+                        <Icon iconSrc='quote' width='20' height='20' viewBox='0 0 25 20'/>
+                        </FirstIconWrapper>
+                        <SecondIconWrapper>
+                        <Icon iconSrc='quote' width='20' height='20' viewBox='0 0 25 20'/>
+                        </SecondIconWrapper>
                         <Comment>With great power comes great electricity bill</Comment>
                         <Name>- Dr. Who</Name>
                     </CommentWrapper>
@@ -92,24 +97,38 @@ const LogoPseudo = styled.img`
     left:10px;
     top:25%;
     z-index:1;
+    overflow:hidden;
 `
 const DotsPseudo = styled.img`
     position:absolute;
     right:-5px;
     bottom:15%;
+    overflow:hidden;
 `
-const QuoteSvg = styled.img`
-   position:absolute;
-   left:0;
-   top:-10px;
-   z-index:99999 ;
-   `
+
+
+const FirstIconWrapper = styled.div`
+    position:absolute;
+    left:10px;
+    top:-15px;
+    z-index:99;
+    background-color: rgb(40, 44, 51);
+    padding:5px;
+`
+const SecondIconWrapper = styled.div`
+    position:absolute;
+    right:10px;
+    bottom:-20px;
+    z-index:99;
+    background-color: rgb(40, 44, 51);
+    padding:5px;
+`
 
 const CommentWrapper = styled.div`
     max-width:712px;
     margin: 0 auto;
     height: 95px;
-    z-index:1;
+    z-index:0;
     position:relative;
     width:100%;
     display:flex;

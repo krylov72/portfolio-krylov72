@@ -13,7 +13,6 @@ export const Logo = () => {
 
 const LogoWrapper = styled.div`
     display:flex;
-    align-items:center;
 `
 
 const LogoText = styled.a`

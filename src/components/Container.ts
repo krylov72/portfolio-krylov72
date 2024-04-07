@@ -16,6 +16,6 @@ border: 1px solid red;
 display: ${props => props.display || 'block'};
 flex-wrap: ${props => props.wrap || 'nowrap'};
 justify-content: ${props => props.justify || 'stretch'};
-align-items: ${props => props.align || 'center'};
+
 
 `
