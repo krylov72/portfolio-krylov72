@@ -18,10 +18,5 @@ const LogoWrapper = styled.div`
 
 const LogoText = styled.a`
 color: rgb(255, 255, 255);
-font-size: 16px;
-font-weight: 700;
-line-height: 21px;
-text-align: left;
-text-decoration:none;
 white-space:pre;
 `

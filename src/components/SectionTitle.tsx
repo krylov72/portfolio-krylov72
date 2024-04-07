@@ -13,14 +13,8 @@ export const SectionTitle = (props: SectionTitlePropsType) => {
 };
 
 const Title = styled.h2`
-color: rgb(255, 255, 255);
-font-size: 32px;
-font-weight: 500;
-line-height: 42px;
+
 `
 const Symbol = styled.span`
-color: rgb(199, 120, 221);
-font-size: 32px;
-font-weight: 500;
-line-height: 42px;
+
 `

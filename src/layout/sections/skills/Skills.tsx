@@ -55,4 +55,3 @@ const ImgWrapper = styled.div`
     width: 349px;
     height: 282px;
 `
-

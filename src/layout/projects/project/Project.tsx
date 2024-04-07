@@ -50,10 +50,11 @@ type buttonType = {
       font-weight: 500;
       line-height: 31px;
   `
-  const Tehnologies = styled(BorderDiv)`
+  const Tehnologies = styled.p`
       margin: -15px -1px 0;
       padding: 9px 9px 2px;
       font-size: 16px;
       font-weight: 400;
       line-height: 2;
+      border-bottom:1px solid gray;
   `

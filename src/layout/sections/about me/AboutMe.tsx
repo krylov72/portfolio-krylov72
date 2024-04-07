@@ -42,11 +42,6 @@ const TextBlock = styled.div`
 const Description = styled.p`
     max-width:515px;
     width:100%;
-    color: rgb(171, 178, 191);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    text-align: left;
 `
 const Photo = styled.img`
     max-width:339px;

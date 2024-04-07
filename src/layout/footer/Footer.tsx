@@ -41,12 +41,6 @@ const StyledFooter = styled.footer`
 const ContentBox = styled.div`
 `
 const Email = styled.span`
-    color: rgb(171, 178, 191);
-    font-family: Fira Code;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 21px;
-    text-align: left;
 `
 
 const LogoWrapper = styled.div`
@@ -56,23 +50,12 @@ const LogoWrapper = styled.div`
 `
 
 const ContentText = styled.p`
-    color: rgb(255, 255, 255);
-    font-family: Fira Code;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 21px;
-    text-align: left;
     `
 
     const MediaBox = styled.div`
         
     `
     const MediaText = styled.p`
-        color: rgb(255, 255, 255);
-    font-family: Fira Code;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 31px;
     text-align: center;
     `
     const MediaWrapper = styled.div`
@@ -83,10 +66,4 @@ const ContentText = styled.p`
     const Privacy = styled.small`
         display:flex;
         justify-content:center;
-        color: rgb(171, 178, 191);
-    font-family: Fira Code;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 21px;
-    text-align: left;
     `

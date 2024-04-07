@@ -35,11 +35,6 @@ const StyledContacts = styled.section`
 const ContactsText = styled.p`
     max-width:505px;
     width:100%;
-    color: rgb(171, 178, 191);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 21px;
-    text-align: left;
 `
 const ContactsWrapper = styled.div`
 padding:16px;
@@ -49,10 +44,6 @@ border: 1px solid rgb(171, 178, 191);
 
 `
 const Description = styled.p`
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 21px;
     margin: 0;
 `
 const ContactsList = styled.div`
@@ -62,10 +53,6 @@ const ContactsList = styled.div`
 const Contact = styled.p`
     display:flex;
     align-items:center;
-    color: rgb(171, 178, 191);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 21px;
     white-space:pre;
     
 `
